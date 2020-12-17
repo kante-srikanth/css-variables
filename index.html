@@ -64,7 +64,6 @@
         const inputs = document.getElementsByTagName("input");
         const values = [...inputs].map(i => i.value);
         const [padding, blur, background] = [...values];
-        console.log(background);
         document.documentElement.style.setProperty("--padding", padding + "rem");
         document.documentElement.style.setProperty("--blur", blur + "px");
         document.documentElement.style.setProperty("--background", background);
